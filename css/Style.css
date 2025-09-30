@@ -176,12 +176,11 @@ align-items: center;
     color: #621402;
 }
     .m-menu{
-        display: block;
-        
+        display: none;
     }
-    .is-open{
-        display: block !important;
-    }
+
+    
+
  
 .select{
     background: rgba(255, 255, 255, 0.15);
@@ -328,8 +327,9 @@ align-items: center;
 
 
 }
-@media(max-width: 760px)
-{
+
+@media(max-width: 760px) {
+
     .container
     {
         max-width: 560px;
@@ -344,7 +344,7 @@ align-items: center;
         background-color: #621402;
         z-index: 9;
         border-radius: 10px ;
-        display: none;
+        display: flex;
         opacity: 0;
         visibility: hidden;
         transform: translatey(50%);
